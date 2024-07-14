@@ -1,0 +1,20 @@
+.display_player {
+  .sprite_suco {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .container_suco div {
+    display: none;
+  }
+
+  div .container_suco .ativo {
+    display: block;
+  }
+
+  .btn_menu {
+    border: none;
+    background: transparent;
+    color: transparent;
+  }
+}

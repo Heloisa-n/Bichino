@@ -1,0 +1,24 @@
+.container_menu_baixo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container_menu_baixo #icone_suco,
+.container_menu_baixo #icone_estudo {
+  cursor: default;
+}
+
+.menu_baixo {
+  display: flex;
+}
+.menu_baixo .icone {
+  opacity: 0.3;
+  width: 2rem;
+  height: 2rem;
+}
+
+.menu_baixo div.ativo .icone {
+  opacity: 1;
+}/*# sourceMappingURL=menu_baixo.css.map */

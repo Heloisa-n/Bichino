@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudando</title>
+
+    <link rel="stylesheet" href="Estilos/display_player.css" />
+    <link rel="stylesheet" href="Estilos/carinho/carinho.css" />
+
+    <script src="scripts/carinho.js" defer></script>
+  </head>
+
+  <body>
+    <div class="display_player">
+      <div class="display_menu">
+        <div class="container_carinho">
+          <div class="ativo">
+            <img class="sprite_carinho" src="img/Carinho/carinho 1.png" />
+          </div>
+          <div>
+            <img class="sprite_carinho" src="img/Carinho/carinho 2.png" />
+          </div>
+        </div>
+      </div>
+      <div class="navegacao">
+        <div class="navegacao_menu">
+          <button class="btn_menu" onclick="slideAnterior()">Anterior</button>
+          <button class="btn_menu" onclick="">Enter</button>
+          <button class="btn_menu" onclick="proximoSlide()">Próximo</button>
+        </div>
+        <div class="navegacao_movimento">
+          <button class="btn_mov" onclick="movimentoAnterior()"></button>
+          <button class="btn_mov" onclick="proximoMovimento()"></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

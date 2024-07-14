@@ -1,0 +1,14 @@
+.display_player {
+  .sprite_mov {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .container_movimento div {
+    display: none;
+  }
+
+  div .container_movimento .ativo {
+    display: block;
+  }
+}

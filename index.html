@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bichinho</title>
+
+    <link rel="stylesheet" href="Estilos/display_player.css" />
+    <link rel="stylesheet" href="Estilos/menu/menu_baixo.css" />
+    <link rel="stylesheet" href="Estilos/Movimento/Movimento.css" />
+
+    <script src="scripts/movimento.js" defer></script>
+    <script src="scripts/menu_baixo.js" defer></script>
+  </head>
+
+  <body>
+    <div class="display_player">
+      <div class="display_menu">
+        <div class="container_movimento">
+          <div class="ativo">
+            <img class="sprite_mov" src="img/standby/movimento 5.png" />
+          </div>
+          <div>
+            <img class="sprite_mov" src="img/standby/Movimento 4.png" />
+          </div>
+          <div>
+            <img class="sprite_mov" src="img/standby/Movimento 3.png" />
+          </div>
+          <div>
+            <img class="sprite_mov" src="img/standby/Movimento 2.png" />
+          </div>
+          <div>
+            <img class="sprite_mov" src="img/standby/Movimento 1.png" />
+          </div>
+        </div>
+
+        <div class="container_menu_baixo">
+          <div class="menu_baixo">
+            <div class="ativo">
+              <img class="icone" src="img/icones/comida.png" />
+            </div>
+            <div>
+              <a href="suco.html" id="icone_suco"><img class="icone"  src="img/icones/Suco.jpg" /></a>
+            </div>
+            <div>
+              <a href="estudo.html" id="icone_estudo"><img class="icone" src="img/icones/livro.png"></a>
+            </div>
+            <div>
+              <a href="carinho.html" id="icone_carinho"><img class="icone" src="img/icones/carinho.png"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navegacao">
+        <div class="navegacao_menu">
+          <button class="btn_menu" onclick="slideAnterior()">Anterior</button>
+          <button class="btn_menu btn_enter" onclick="enter()" >Enter</button>
+          <button class="btn_menu" onclick="proximoSlide()">Próximo</button>
+        </div>
+        <div class="navegacao_movimento">
+          <button class="btn_mov" onclick="movimentoAnterior()"></button>
+          <button class="btn_mov" onclick="proximoMovimento()"></button>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

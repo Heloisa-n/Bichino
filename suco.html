@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bichinho</title>
+
+    <link rel="stylesheet" href="Estilos/display_player.css" />
+
+    <link rel="stylesheet" href="Estilos/suco/suco.css" />
+
+    <script src="scripts/suco.js" defer></script>
+  </head>
+
+  <body>
+    <div class="display_player">
+      <div class="display_menu">
+        <div class="container_suco">
+          <div class="ativo">
+            <img class="sprite_suco" src="img/suco/Sprite suco cheio.png" />
+          </div>
+          <div>
+            <img
+              class="sprite_suco"
+              src="img/suco/Sprite suco meio vazio.png"
+            />
+          </div>
+          <div>
+            <img
+              class="sprite_suco"
+              src="img/suco/Sprite Suco quase vazio.png"
+            />
+          </div>
+          <div>
+            <img class="sprite_suco" src="img/suco/Sprite suco vazio.png" />
+          </div>
+          <div>
+            <img class="sprite_suco" src="img/suco/Sprite Satisfeito.png" />
+          </div>
+        </div>
+      </div>
+      <div class="navegacao">
+        <div class="navegacao_menu">
+          <button class="btn_menu" onclick="slideAnterior()">Anterior</button>
+          <button class="btn_menu" onclick="">Enter</button>
+          <button class="btn_menu" onclick="proximoSlide()">Próximo</button>
+        </div>
+        <div class="navegacao_movimento">
+          <button class="btn_mov" onclick="movimentoAnterior()"></button>
+          <button class="btn_mov" onclick="proximoMovimento()"></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

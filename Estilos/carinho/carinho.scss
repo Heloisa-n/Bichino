@@ -1,0 +1,14 @@
+.display_player {
+  .sprite_carinho {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .container_carinho div {
+    display: none;
+  }
+
+  div .container_carinho .ativo {
+    display: block;
+  }
+}

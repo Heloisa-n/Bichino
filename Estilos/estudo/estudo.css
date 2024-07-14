@@ -1,0 +1,10 @@
+.display_player .sprite_estudo {
+  width: 25rem;
+  height: 25rem;
+}
+.display_player .container_estudo div {
+  display: none;
+}
+.display_player div .container_estudo .ativo {
+  display: block;
+}/*# sourceMappingURL=estudo.css.map */

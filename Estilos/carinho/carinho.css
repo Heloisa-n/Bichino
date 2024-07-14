@@ -1,0 +1,10 @@
+.display_player .sprite_carinho {
+  width: 25rem;
+  height: 25rem;
+}
+.display_player .container_carinho div {
+  display: none;
+}
+.display_player div .container_carinho .ativo {
+  display: block;
+}/*# sourceMappingURL=carinho.css.map */

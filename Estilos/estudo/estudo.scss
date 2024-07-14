@@ -1,0 +1,14 @@
+.display_player {
+  .sprite_estudo {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .container_estudo div {
+    display: none;
+  }
+
+  div .container_estudo .ativo {
+    display: block;
+  }
+}
