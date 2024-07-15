@@ -7,37 +7,43 @@
 
     <link rel="stylesheet" href="Estilos/display_player.css" />
     <link rel="stylesheet" href="Estilos/menu/menu_baixo.css" />
-    <link rel="stylesheet" href="Estilos/Movimento/Movimento.css" />
+    <link rel="stylesheet" href="Estilos/comidas/comidas.css" />
 
-    <script src="scripts/movimento.js" defer></script>
-    <script src="scripts/menu_baixo.js" defer></script>
+    <script src="scripts/comidas.js" defer></script>
+
   </head>
 
   <body>
     <div class="display_player">
       <div class="display_menu">
-        <div class="container_movimento">
+        <div class="container_comidas">
           <div class="ativo">
-            <img class="sprite_mov" src="img/standby/movimento 5.png" />
+            <img class="sprite_comida" src="img/comidas/comida 1.png" />
           </div>
           <div>
-            <img class="sprite_mov" src="img/standby/Movimento 4.png" />
+            <img class="sprite_comida" src="img/comidas/comida 2.png" />
           </div>
           <div>
-            <img class="sprite_mov" src="img/standby/Movimento 3.png" />
+            <img class="sprite_comida" src="img/comidas/comida 2.png" />
           </div>
           <div>
-            <img class="sprite_mov" src="img/standby/Movimento 2.png" />
+            <img class="sprite_comida" src="img/comidas/comida 3.png" />
           </div>
           <div>
-            <img class="sprite_mov" src="img/standby/Movimento 1.png" />
+            <img class="sprite_comida" src="img/comidas/comida 4.png" />
+          </div>
+          <div>
+            <img class="sprite_comida" src="img/comidas/comida 5.png" />
+          </div>
+          <div>
+            <img class="sprite_comida" src="img/comidas/comida 6.png" />
           </div>
         </div>
 
         <div class="container_menu_baixo">
           <div class="menu_baixo">
             <div class="ativo">
-             <a href="comidas.html" id="icone_comidas"> <img class="icone" src="img/icones/comida.png" /></a>
+              <img class="icone" src="img/icones/comida.png" />
             </div>
             <div>
               <a href="suco.html" id="icone_suco"><img class="icone"  src="img/icones/Suco.jpg" /></a>
@@ -54,6 +60,7 @@
 
       <div class="navegacao">
         <div class="navegacao_menu">
+          
           <button class="btn_menu" onclick="slideAnterior()">Anterior</button>
           <button class="btn_menu btn_enter" onclick="enter()" >Enter</button>
           <button class="btn_menu" onclick="proximoSlide()">Próximo</button>
@@ -61,6 +68,14 @@
         <div class="navegacao_movimento">
           <button class="btn_mov" onclick="movimentoAnterior()"></button>
           <button class="btn_mov" onclick="proximoMovimento()"></button>
+        </div>
+        <div class="navegacao_comida">
+          <button class="btn_comidas"  onclick="comidaAnterior()">Anterior</button>
+          <button class="btn_menu btn_enter" onclick="selecionarComida()" >Enter</button>
+          <button class="btn_comidas" onclick="proximaComida()">Próximo</button>
+        </div>
+        <div class="btn_esc">
+          <a href="index.html"><button class="btn_comidas" onclick="voltarPagina()">Voltar</button></a>
         </div>
         
         </div>

@@ -1,0 +1,45 @@
+.display_player {
+  .sprite_comida {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .container_menu_baixo {
+    display: none;
+  }
+
+  .navegacao {
+    .navegacao_menu {
+      display: none;
+    }
+
+    .navegacao_movimento {
+      display: none;
+    }
+
+    .navegacao_comida {
+      .btn_comidas {
+        width: 8rem;
+        height: 1.5rem;
+        text-align: center;
+        align-items: center;
+      }
+    }
+
+    .btn_esc {
+      padding-top: 0.5rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .container_comidas div {
+    display: none;
+  }
+
+  div .container_comidas .ativo {
+    display: block;
+  }
+}

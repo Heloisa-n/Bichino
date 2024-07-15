@@ -33,7 +33,7 @@ function enter() {
     proximoSlide()
 
     if (iconeAtivo === 0) {
-        console.log("Icone 1")
+        document.getElementById("icone_comidas").click()
     }
 
     if (iconeAtivo === 1) {
@@ -49,7 +49,6 @@ function enter() {
     if (iconeAtivo === 3) {
         document.getElementById("icone_carinho").click()
     }
-
 
 }
 

@@ -7,4 +7,9 @@
 }
 .display_player div .container_estudo .ativo {
   display: block;
+}
+.display_player .btn_menu {
+  border: none;
+  background: transparent;
+  color: transparent;
 }/*# sourceMappingURL=estudo.css.map */

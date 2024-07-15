@@ -7,4 +7,9 @@
 }
 .display_player div .container_carinho .ativo {
   display: block;
+}
+.display_player .btn_menu {
+  border: none;
+  background: transparent;
+  color: transparent;
 }/*# sourceMappingURL=carinho.css.map */

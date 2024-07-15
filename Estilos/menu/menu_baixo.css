@@ -6,7 +6,8 @@
   align-items: center;
 }
 .container_menu_baixo #icone_suco,
-.container_menu_baixo #icone_estudo {
+.container_menu_baixo #icone_estudo,
+.container_menu_baixo #icone_comidas {
   cursor: default;
 }
 
